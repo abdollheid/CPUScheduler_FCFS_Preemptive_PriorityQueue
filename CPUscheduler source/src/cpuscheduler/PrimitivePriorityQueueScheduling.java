@@ -97,7 +97,7 @@ public class PrimitivePriorityQueueScheduling {
             timeSpent.add(pq.poll().getBurstTime());
         }
 
-        chart.divde(timeSpent, names, p.ArrivalTime[0]);
+        chart.divde(timeSpent, names, p.ArrivalTime[0]);  // for GUI draw
 
     }
 

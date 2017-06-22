@@ -71,7 +71,7 @@ public class CPUscheduler extends Application {
          
 //         Process process = new Process(4 , new int []{2,6,8,10} , new int []{47,49,50,29} ,new int []{6,6,6,8} ) ; 
          Process process = new Process(processN) ; 
-         process.generate(12);
+         process.generate();
 //           
          FCFS a =new FCFS(process,chartF);
         Text ftext2 = new Text(7 ,((6*pane.getHeight())/12),"Total waiting time: " +a.getTotalTime());
